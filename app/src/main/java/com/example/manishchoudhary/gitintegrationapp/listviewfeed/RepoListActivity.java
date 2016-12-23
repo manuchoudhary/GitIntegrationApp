@@ -10,10 +10,6 @@ import com.example.manishchoudhary.gitintegrationapp.R;
 import com.example.manishchoudhary.gitintegrationapp.adapter.RepositoryListAdapter;
 import com.example.manishchoudhary.gitintegrationapp.data.GitUser;
 
-/**
- * Created by manish.choudhary on 12/21/2016.
- */
-
 public class RepoListActivity extends AppCompatActivity {
     GitUser gitUser;
     private RecyclerView listView;

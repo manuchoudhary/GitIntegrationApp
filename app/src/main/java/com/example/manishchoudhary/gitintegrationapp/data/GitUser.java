@@ -3,10 +3,6 @@ package com.example.manishchoudhary.gitintegrationapp.data;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by manish.choudhary on 12/21/2016.
- */
-
 public class GitUser implements Serializable {
 
     private int gitUserID;

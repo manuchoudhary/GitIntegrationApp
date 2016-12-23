@@ -9,10 +9,6 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 import com.example.manishchoudhary.gitintegrationapp.volley.LruBitmapCache;
 
-/**
- * Created by manish.choudhary on 11/28/2016.
- */
-
 public class AppController extends Application {
 
     public static final String TAG = AppController.class.getSimpleName();

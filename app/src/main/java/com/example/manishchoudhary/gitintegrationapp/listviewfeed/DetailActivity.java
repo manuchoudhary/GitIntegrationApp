@@ -11,10 +11,6 @@ import com.example.manishchoudhary.gitintegrationapp.R;
 import com.example.manishchoudhary.gitintegrationapp.app.AppController;
 import com.example.manishchoudhary.gitintegrationapp.data.Repository;
 
-/**
- * Created by manish.choudhary on 12/22/2016.
- */
-
 public class DetailActivity extends AppCompatActivity {
 
     Repository repoItem;

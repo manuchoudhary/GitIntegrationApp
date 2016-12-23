@@ -1,9 +1,5 @@
 package com.example.manishchoudhary.gitintegrationapp.listviewfeed;
 
-/**
- * Created by manish.choudhary on 12/21/2016.
- */
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

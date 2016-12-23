@@ -2,10 +2,6 @@ package com.example.manishchoudhary.gitintegrationapp.data;
 
 import java.io.Serializable;
 
-/**
- * Created by manish.choudhary on 12/21/2016.
- */
-
 public class Repository implements Serializable {
 
     private int repoID;

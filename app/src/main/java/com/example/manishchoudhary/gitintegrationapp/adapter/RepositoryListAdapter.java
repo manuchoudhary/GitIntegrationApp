@@ -20,10 +20,6 @@ import com.example.manishchoudhary.gitintegrationapp.listviewfeed.MainActivity;
 
 import java.util.List;
 
-/**
- * Created by manish.choudhary on 12/21/2016.
- */
-
 public class RepositoryListAdapter extends RecyclerView.Adapter<RepositoryListAdapter.ViewHolder> {
 
     private Activity activity;

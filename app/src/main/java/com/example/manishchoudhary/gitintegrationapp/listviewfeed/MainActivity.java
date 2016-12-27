@@ -71,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 VolleyLog.d(TAG, "Error: " + error.getMessage());
+                Toast.makeText(MainActivity.this, "Invalid User Name", Toast.LENGTH_SHORT).show();
+                URL_FEED = "https://api.github.com/users";
             }
         });
 
@@ -82,10 +84,6 @@ public class MainActivity extends AppCompatActivity {
         try {
             gitUser = new GitUser();
             JSONObject feedObj = response;
-            if(feedObj.has("message")){
-                Toast.makeText(MainActivity.this, "Invalid User Name", Toast.LENGTH_SHORT);
-                return;
-            }
             gitUser.setGitUserID(feedObj.getInt("id"));
             gitUser.setGitUserName(feedObj.getString("login"));
             gitUser.setGitName(feedObj.getString("name"));
